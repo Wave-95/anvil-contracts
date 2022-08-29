@@ -1,0 +1,100 @@
+[
+    {
+        "data": [
+            {
+                "name": "previousOwner",
+                "type": "felt"
+            },
+            {
+                "name": "newOwner",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "OwnershipTransferred",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "contract_address",
+                "type": "felt"
+            },
+            {
+                "name": "contract_owner",
+                "type": "felt"
+            },
+            {
+                "name": "caller",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "contract_deployed",
+        "type": "event"
+    },
+    {
+        "inputs": [
+            {
+                "name": "owner",
+                "type": "felt"
+            }
+        ],
+        "name": "constructor",
+        "outputs": [],
+        "type": "constructor"
+    },
+    {
+        "inputs": [
+            {
+                "name": "class_hash",
+                "type": "felt"
+            }
+        ],
+        "name": "set_OZ_ERC721MintableBurnable",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "name",
+                "type": "felt"
+            },
+            {
+                "name": "symbol",
+                "type": "felt"
+            },
+            {
+                "name": "owner",
+                "type": "felt"
+            }
+        ],
+        "name": "deploy_OZ_ERC721MintableBurnable",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "get_owner",
+        "outputs": [
+            {
+                "name": "owner",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "new_owner",
+                "type": "felt"
+            }
+        ],
+        "name": "change_owner",
+        "outputs": [],
+        "type": "function"
+    }
+]

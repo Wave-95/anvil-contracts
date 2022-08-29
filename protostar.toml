@@ -1,0 +1,16 @@
+["protostar.config"]
+protostar_version = "0.3.2"
+
+["protostar.project"]
+libs_path = "lib"
+
+["protostar.contracts"]
+self-mint = [
+    "src/token/erc721/selfMint/main.cairo",
+]
+self-mint-deployer = [
+    "src/token/erc721/selfMint/deployer.cairo",
+]
+
+["protostar.shared_command_configs"]
+cairo-path = ["./lib/cairo_contracts/src"]
